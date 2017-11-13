@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main(){
+	
+	
+	
+	
+	
+	int int1,int2,int3,n;
+	scanf("%d",&n);
+	
+		for(int1=0;int1<=n;int1++){
+		for(int2=0;int2<=int1;int2++){
+			
+			printf(" ");
+		}
+		for(int3=2*(n-int1)-1;int3>=1;int3--){
+			
+			printf("*");
+		}
+printf("\n");
+	}
+	
+	
+	for(int1=0;int1<=n;int1++){
+		for(int2=n;int2>=int1;int2--){
+			
+			printf(" ");
+		}
+		for(int3=1;int3<2*int1;int3++){
+			
+			printf("*");
+		}
+printf("\n");
+	}
+
+	
+	return 0;
+}
