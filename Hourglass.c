@@ -1,10 +1,6 @@
 #include <stdio.h>
 int main(){
 	
-	
-	
-	
-	
 	int int1,int2,int3,n;
 	scanf("%d",&n);
 	
